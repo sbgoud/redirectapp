@@ -1,15 +1,18 @@
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://chat.deepseek.com">
-    <title>Redirecting...</title>
-</head>
-<body>
-    <p>If you are not redirected automatically, <a href="https://chat.deepseek.com">click here</a>.</p>
-    
+    <title>Redirecting to DeepSeek</title>
     <script>
-        // JavaScript redirect as fallback
+        // Immediate redirect before any content loads
         window.location.replace("https://chat.deepseek.com");
     </script>
+    <meta http-equiv="refresh" content="0; url=https://chat.deepseek.com">
+</head>
+<body>
+    <!-- Fallback content -->
+    <noscript>
+        <h1>JavaScript Required</h1>
+        <p>Please enable JavaScript or click below:</p>
+        <a href="https://chat.deepseek.com">Continue to DeepSeek Chat</a>
+    </noscript>
 </body>
 </html>
